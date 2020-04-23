@@ -90,3 +90,6 @@ out/
 
 # Dist folder
 dist/
+
+# bundle.* files in public/build
+public/build/
