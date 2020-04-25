@@ -1,0 +1,16 @@
+{
+  "name": "aurora-multiplayer-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "bin": "src/index.js",
+  "scripts": {
+    "start": "NODE_ENV=dev node src/index.js",
+    "dist": "pkg . --out-path ./dist"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "ftp-srv": "^4.3.1"
+  }
+}
